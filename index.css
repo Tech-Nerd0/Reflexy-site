@@ -1,0 +1,59 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Trebuchet MS';
+  background-color: #212121;
+  color: #fff;
+}
+.topnavbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333333;
+  height: 96px;
+  border-radius: 17px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 17px;
+  margin-right: 10px;
+  transition: all 0.6s;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.logo:active {
+  transform: scale(0.9);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.6s;
+}
+
+a:hover {
+  color: #4542ff;
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+
+a:active {
+  transform: scale(0.9)
+}
+
+.ContactButtonTNB {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px
+}
+
